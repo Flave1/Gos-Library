@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Gos Software</Authors>
+    <Product>GOS ERP</Product>
+    <Description>GOS-Libraries is a package product created by GOS Softwares , breaded or battered, then deep-fried or baked. Invented in the 2020, they have become a popular software company. it's only a working tool utilized by Gos Software engineers for developmet.</Description>
+    <PackageIcon>download.jpg</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/Flave1/Gos-Library.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Flave1/Gos-Library.git</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Gos Software</Company>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup> 
+  <ItemGroup>
+    <None Remove="GOS_Mailer\Service\EmailService .cs~RF422fbbd3.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JWT" Version="7.2.1" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.7" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.7" />
+    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+  </ItemGroup>
+
+</Project>
