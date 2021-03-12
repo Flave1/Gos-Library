@@ -49,6 +49,10 @@ namespace GOSLibraries.Enums
         BidAndTenders = 41,
         PPERevaluation = 42,
         BankAccountClosure = 43,
-        ChangeOfRate = 44
+        ChangeOfRate = 44,
+        ERNApproval = 45,
+        ERNPaymentApproval = 46,
+        ERNClaimsApproval = 47,
+
     }
 }
